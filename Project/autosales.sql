@@ -1,3 +1,19 @@
+/*Introduction:-
+
+The Auto Sales Analysis Project aims to derive actionable insights from historical automobiles sales data using structured 
+query language(SQL). This dataset, structured in a relational database, encompasses detailed order-level information such
+as order number, product line, quantity ordered, price, customer demographics, order status, and sales figures.
+
+To support strategic decision-making, a comprehensive SQL - based analytical approach is employed. The analysis begins with 
+foundational quries such as filtering high-value transactions, identifying key customers, and examining temporal order trends.
+It progresses to more advanced aggregations, including total and average sales by country, productline, and dealsize.
+
+This data-driven approach reveales crucial business insights - highlighting top-performing markets, high-value customers 
+profitable product categories, and operational efficiency in order fulfillment. The findings can support enhancements in 
+marketing strategy, sales forecasting, inventory planning, and customer relationship management.
+
+*/
+
 show variables like 'secure_file_priv';
 
 create database prac;
@@ -143,47 +159,49 @@ order by Total_Revenue desc;
 
 -- ============================
 
--- INSIGHTS
+/* INSIGHTS
 
--- High-Value Orders(>3000):-
-	-- A significant number of orders exceed 3000, indicating a healthy segment of high value transactions.
+High-Value Orders(>3000):-
+	A significant number of orders exceed 3000, indicating a healthy segment of high value transactions.
     
--- Customers from the USA:-
-	-- It contributes a large share of the customer base, This highlights the USA as a key market.
+Customers from the USA:-
+	It contributes a large share of the customer base, This highlights the USA as a key market.
 
--- Shipped Orders - Product Info:-
-	-- Most sales are successfully marked as 'Shipped', It indicating strong order fulfillment and logistics performance.
+Shipped Orders - Product Info:-
+	Most sales are successfully marked as 'Shipped', It indicating strong order fulfillment and logistics performance.
 
--- Top-5 Orders by Sales
-	-- A few large orders contribute disproportionalitely to total sales. These might come from B2B customers or bulk buyers.
+Top-5 Orders by Sales
+	A few large orders contribute disproportionalitely to total sales. These might come from B2B customers or bulk buyers.
     
--- Total Sales by Country
-	-- Sales are concentrated in a few countries, with the USA and France likely leading. It can be inform distribution 
-    -- strategies and localize marketing
+Total Sales by Country
+	Sales are concentrated in a few countries, with the USA and France likely leading. It can be inform distribution 
+    strategies and localize marketing
 
--- Average Sales per Dealsize
-	-- Larger deal sizes yield higher average sales, justifying efforts to move customers up the value.
+Average Sales per Dealsize
+	Larger deal sizes yield higher average sales, justifying efforts to move customers up the value.
     
--- Order count by Status
-	-- Most orders fall under "Shipped", confirming successful operations. A small percentage may be "On Hold" or "Cancelled".
+Order count by Status
+	Most orders fall under "Shipped", confirming successful operations. A small percentage may be "On Hold" or "Cancelled".
  
- -- Cities with > 50 Orders
-	-- Urban centers like Madrid, San Rafael and NYC have higher order volumes, indicating dense customer populations or B2B hubs.
+Cities with > 50 Orders
+	Urban centers like Madrid, San Rafael and NYC have higher order volumes, indicating dense customer populations or B2B hubs.
 
--- Highest Revenue Productline
-	-- Classic cars are likely the top earners, showing strong consumer interest these lines.
+Highest Revenue Productline
+	Classic cars are likely the top earners, showing strong consumer interest these lines.
     
--- Productlines with > 4000 Units Sold
-	-- Only a few productlines exceed this threshold, which could inform production and inventory priorities.
+Productlines with > 4000 Units Sold
+	Only a few productlines exceed this threshold, which could inform production and inventory priorities.
     
--- Most Frequently Sold Productline
-	-- Classic cars are the most frequently sold, It suggesting strong market demand across customers types.
+Most Frequently Sold Productline
+	Classic cars are the most frequently sold, It suggesting strong market demand across customers types.
     
--- Quantity Vs. Sales Relationship
-	-- Higher quantity ordered do not translate to proportionally higher revenue, hinting at volume discount and lower-priced product category.
+Quantity Vs. Sales Relationship
+	Higher quantity ordered do not translate to proportionally higher revenue, hinting at volume discount and lower-priced product category.
     
--- These High-revenue customers should be prioritized for pretention efforts to new products.
+These High-revenue customers should be prioritized for pretention efforts to new products.
 
--- Some combinations of country and productline perform better than others, suggesting local preferences or effective regional strategies.
+Some combinations of country and productline perform better than others, suggesting local preferences or effective regional strategies.
 
--- A small set of products drive most revenue. Focused promotions or bundling strategies can maximize the impact of these high-performing items.
+A small set of products drive most revenue. Focused promotions or bundling strategies can maximize the impact of these high-performing items.
+
+*/
