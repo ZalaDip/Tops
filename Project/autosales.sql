@@ -161,42 +161,30 @@ order by Total_Revenue desc;
 
 /* INSIGHTS
 
-High-Value Orders(>3000):-
-	A significant number of orders exceed 3000, indicating a healthy segment of high value transactions.
+--> A significant number of orders exceed 3000, indicating a healthy segment of high value transactions.
     
-Customers from the USA:-
-	It contributes a large share of the customer base, This highlights the USA as a key market.
+-->	It contributes a large share of the customer base, This highlights the USA as a key market.
 
-Shipped Orders - Product Info:-
-	Most sales are successfully marked as 'Shipped', It indicating strong order fulfillment and logistics performance.
+-->	Most sales are successfully marked as 'Shipped', It indicating strong order fulfillment and logistics performance.
 
-Top-5 Orders by Sales
-	A few large orders contribute disproportionalitely to total sales. These might come from B2B customers or bulk buyers.
+-->	A few large orders contribute disproportionalitely to total sales. These might come from B2B customers or bulk buyers.
     
-Total Sales by Country
-	Sales are concentrated in a few countries, with the USA and France likely leading. It can be inform distribution 
+-->	Sales are concentrated in a few countries, with the USA and France likely leading. It can be inform distribution 
     strategies and localize marketing
 
-Average Sales per Dealsize
-	Larger deal sizes yield higher average sales, justifying efforts to move customers up the value.
+-->	Larger deal sizes yield higher average sales, justifying efforts to move customers up the value.
     
-Order count by Status
-	Most orders fall under "Shipped", confirming successful operations. A small percentage may be "On Hold" or "Cancelled".
+-->	Most orders fall under "Shipped", confirming successful operations. A small percentage may be "On Hold" or "Cancelled".
  
-Cities with > 50 Orders
-	Urban centers like Madrid, San Rafael and NYC have higher order volumes, indicating dense customer populations or B2B hubs.
+-->	Urban centers like Madrid, San Rafael and NYC have higher order volumes, indicating dense customer populations or B2B hubs.
 
-Highest Revenue Productline
-	Classic cars are likely the top earners, showing strong consumer interest these lines.
+-->	Classic cars are likely the top earners, showing strong consumer interest these lines.
     
-Productlines with > 4000 Units Sold
-	Only a few productlines exceed this threshold, which could inform production and inventory priorities.
+-->	Only a few productlines exceed this threshold, which could inform production and inventory priorities.
     
-Most Frequently Sold Productline
-	Classic cars are the most frequently sold, It suggesting strong market demand across customers types.
+-->	Classic cars are the most frequently sold, It suggesting strong market demand across customers types.
     
-Quantity Vs. Sales Relationship
-	Higher quantity ordered do not translate to proportionally higher revenue, hinting at volume discount and lower-priced product category.
+-->	Higher quantity ordered do not translate to proportionally higher revenue, hinting at volume discount and lower-priced product category.
     
 These High-revenue customers should be prioritized for pretention efforts to new products.
 
