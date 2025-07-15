@@ -42,6 +42,8 @@ CONTACTFIRSTNAME varchar(30),
 DEALSIZE varchar(20)
 );
 
+select * from autosales;
+
 show variables like 'local_infile';
 set global local_infile = 1;
 
@@ -165,7 +167,11 @@ order by Total_Revenue desc;
     
 -->	It contributes a large share of the customer base, This highlights the USA as a key market.
 
--->	Most sales are successfully marked as 'Shipped', It indicating strong order fulfillment and logistics performance.
+--> There are 5,494 individual order line records, indicating detailed transactional data.
+
+--> The SALES column reflects total revenue per order line, calculated as QUANTITYORDERED × PRICEEACH.
+
+--> Most sales transactions fall under small or medium DEALSIZE categories, showing a concentration in low-to-mid ticket items.
 
 -->	A few large orders contribute disproportionalitely to total sales. These might come from B2B customers or bulk buyers.
     
